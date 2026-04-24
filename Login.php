@@ -6,43 +6,45 @@
     <title>Document</title>
 </head>
 <body>
-
-
-    <h1>Login page</h1>
-
-    <form action="Login.php" method="POST">
-        User Name: <input type="text" name="username"> <br>
-        Password:  <input type="password" name="password"> <br>
+    <h2>Log in to an existing Account</h2>
+    <form action="login.php" METHOD="post">
+        Username : <input type="text" name="username" id="username">
+        <br>
+        Password: <input type="password" name="password" id="password">
+        <br>
         <input type="submit" value="Login" name="login">
-        <input type="submit" value="Signup" name="signup">
+        <a href="signup.php">Or Sign Up for the first time.</a>
     </form>
-
-
 </body>
 </html>
 
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // get details from the form
-        $username = $_POST["username"];
-        $password = $_POST["password"];
+        if (isset($_POST["login"])) {
+            $username = $_POST["username"];
+            $password = $_POST["password"];
+        }
 
-        //connect to database
-        $conn = mysqli_connect("localhost", "root", "", "care_project");
 
+        // coonect to database
+        $conn = mysqli_connect('localhost', 'root', '', 'care');
+
+        // make get query
         $sql = "SELECT * FROM users WHERE user_name = '$username' and password = '$password';";
 
-        $result = mysqli_query($conn, $sql);
+        // run the query
+        $conn = mysqli_query($conn, $sql);
 
-        $result = mysqli_fetch_assoc($result);
+        // get result as a n array
+        $result = mysqli_fetch_assoc($conn);
+        echo $result["username"];
+        echo $result["password"];
+        // if (mysqli_num_rows($result) > 0) {
 
-        if ($result) {
 
-            echo "data exist`"; 
-        } else {
-            // echo $result;
-            echo "no data";
-        }
+        // if (mysqli_connect_errno()) {
+        //     echo ''. mysqli_connect_error();
+        //     exit();
+
     }
-
 ?>
