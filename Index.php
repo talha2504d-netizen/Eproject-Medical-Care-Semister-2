@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Care</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 <body>
     <?php
@@ -15,7 +17,61 @@
         <div class="row">
             <h3>Services</h3>
             <!-- content here -->
+                
+            <!-- Card 1 -->
+                <div class="col">
+            <div class="card h-100">
+                <img src="Consult.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Consult Online Now</h5>
+                    <p class="card-text">Instantly connect with our healthcare professionals. through our secure platform.</p>
+                </div>
+            </div>
+        </div>
 
+        <!-- Card 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="clinic.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">clinic appointment</h5>
+                    <p class="card-text">Book an in-person visit to our clinic at your convenience.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="Laboratory.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Laboratory Tests</h5>
+                    <p class="card-text">Get your diagnostic tests done with our reliable laboratory services.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="Procedures.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Procedures & Surgeries</h5>
+                    <p class="card-text">Explore our range of medical procedures and surgical options.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="Medicines.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Medicines</h5>
+                    <p class="card-text">Find the medications you need with our wide selection.</p>
+                </div>
+            </div>
+        </div>
         </div>
         <div class="row">
              Categories
@@ -24,6 +80,7 @@
         <div class="row">
             <h3>Conditions</h3>
             <!-- content here -->
+             
         </div>
         <div class="row">
             <h3>Blog Articles</h3>
@@ -39,5 +96,7 @@
     <?php
         include("navbar.php");
     ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
