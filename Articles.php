@@ -115,7 +115,7 @@
         </div>
     </div> -->
 
-    <img src="Healthy Lifestyle.jpg" alt="Apple Cinnamon Water" class="main-image">
+    <img src="images/Healthy Lifestyle.jpg" alt="Apple Cinnamon Water" class="main-image">
 
     <p>Many people in Pakistan struggle to maintain a healthy lifestyle due to busy routines and unhealthy eating habits. Lack of physical activity and poor diet choices can negatively impact overall well-being.</p>
         

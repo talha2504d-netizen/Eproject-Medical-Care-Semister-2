@@ -7,7 +7,7 @@
 
             <!-- Column 1 -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <img src="Care_logo.png" alt="Logo" style="width: 250px;" class="mb-3">
+                <img src="images/logo.png" alt="Logo" style="width: 250px;" class="mb-3">
                 <p>
                     We provide the best healthcare services, connecting you with 
                     top doctors and hospitals across Pakistan — all in one place.
