@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Cinnamon Detox Water: Benefits and How to Make It</title>
+    
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -98,22 +99,13 @@
         }
     </style>
 </head>
+ <?php include 'navbar.php'; ?>
 <body>
 
 <div class="container">
     <div class="breadcrumb">
         Home > Healthy Lifestyle > 
     </div>
-
-    
-
-    <!-- <div class="meta-info">
-        <div class="doctors.jpg"></div> <div class="meta-text">
-            By <a href="#"><?php echo $author; ?></a><br>
-            Reviewed By <a href="#"><?php echo $reviewer; ?></a><br>
-            <small>Published On <?php echo $publishDate; ?> • <?php echo $readTime; ?></small>
-        </div>
-    </div> -->
 
     <img src="images/Healthy Lifestyle.jpg" alt="Apple Cinnamon Water" class="main-image">
 
@@ -133,9 +125,17 @@
 <h2>Key Healthy Lifestyle Benefits</h2>
 
 <h3>Improved Energy Levels</h3>
-<p>Regular physical activity and proper nutrition help improve energy levels. People who maintain a healthy routine often feel more active and productive throughout the day.</p>
+<p>Regular physical activity and proper nutrition help improve energy levels.
+    People who maintain a healthy routine often feel more active and productive throughout the day.</p>
 
 <h3>Better Mental Health</h3>
-<p>A healthy lifestyle positively affects mental health by reducing stress and anxiety. Activities like exercise, proper sleep, and mindfulness can improve mood and emotional stability.</p>
+<p>A healthy lifestyle positively affects mental health by reducing stress and anxiety. Activities
+     like exercise, proper sleep, and mindfulness can improve mood and emotional stability.</p>
+
+        
+   <?php
+        // Include the footer
+        include 'Footer.php';
+    ?>
 </body>
 </html>

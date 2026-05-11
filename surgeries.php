@@ -10,6 +10,7 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
    <?php include 'navbar.php'; ?>
+   <link rel="stylesheet" href="surgeries.css">
    <style>
         :root {
             --primary-orange: #ff9f43;
