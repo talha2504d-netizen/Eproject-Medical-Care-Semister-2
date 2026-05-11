@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Asthma: Causes, Symptoms and Treatment</title>
+    <title>Wearable Devices: Smart Technology for Health Monitoring</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 
         h2 {
             color: #2c3e50;
-            border-left: 5px solid #e74c3c;
+            border-left: 5px solid #fd7e14;
             padding-left: 15px;
             margin-top: 40px;
         }
@@ -68,16 +68,16 @@
         }
 
         .cta-box {
-            background: #fdecea;
+            background: #fff3e6;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px dashed #e74c3c;
+            border: 1px dashed #fd7e14;
             margin: 20px 0;
         }
 
         .btn-book {
-            background: #e74c3c;
+            background: #fd7e14;
             color: white;
             padding: 10px 25px;
             text-decoration: none;
@@ -88,7 +88,7 @@
         }
 
         .btn-book:hover {
-            background: #c0392b;
+            background: #e96b02;
         }
 
     </style>
@@ -101,58 +101,60 @@
 <div class="blog-container">
 
     <div class="breadcrumb">
-        Home > Health > Asthma
+        Home > Technology > Wearable Devices
     </div>
 
-    <h1>Asthma: Causes, Symptoms and Treatment</h1>
+    <h1>Wearable Devices: Smart Technology for Health Monitoring</h1>
 
-    <img src="../images/Asthma.png" alt="Asthma Image" class="main-image">
+    <img src="../images/wearable.png" alt="Wearable Devices Image" class="main-image">
 
     <p>
-        Asthma is a chronic respiratory disease that affects the airways in the lungs, making breathing difficult.
+        Wearable devices are smart electronic gadgets that can be worn on the body to track health, fitness, and daily activities in real time.
     </p>
 
     <p>
-        During an asthma attack, the airways become inflamed and narrowed, causing wheezing, coughing, chest tightness, and shortness of breath.
+        These devices are becoming an important part of modern healthcare by helping people monitor their heart rate, steps, sleep patterns, and overall wellness.
     </p>
 
     <div class="cta-box">
-        <strong>Consult with the best Pulmonology Specialists</strong>
+        <strong>Track Your Health with Smart Wearable Technology</strong>
         <br>
-
-        <a href="#" class="btn-book">Book Appointment</a>
+        <a href="#" class="btn-book">Explore Devices</a>
     </div>
 
-    <h2>Causes of Asthma</h2>
+    <h2>What are Wearable Devices?</h2>
 
     <p>
-        Asthma can be triggered by dust, pollen, smoke, air pollution, respiratory infections, and stress.
+        :contentReference[oaicite:0]{index=0} are electronic technologies designed to be worn on the body that collect and analyze health and activity data.
     </p>
 
-    <h2>Common Symptoms</h2>
-
-    <h3>Shortness of Breath</h3>
+    <h2>Benefits of Wearable Devices</h2>
 
     <p>
-        Difficulty in breathing especially during physical activity or at night.
+        They help in fitness tracking, health monitoring, early disease detection, and improving lifestyle habits through continuous data analysis.
     </p>
 
-    <h3>Wheezing</h3>
+    <h2>Types of Wearable Devices</h2>
 
+    <h3>Fitness Trackers</h3>
     <p>
-        A whistling sound while breathing due to narrowed airways.
+        Devices that monitor steps, calories burned, and physical activity levels.
     </p>
 
-    <h3>Coughing</h3>
-
+    <h3>Smartwatches</h3>
     <p>
-        Persistent coughing, especially at night or early morning.
+        Advanced watches that track health metrics and also provide communication features like calls and messages.
     </p>
 
-    <h2>Treatment and Management</h2>
+    <h3>Medical Wearables</h3>
+    <p>
+        Used in healthcare to monitor heart conditions, blood pressure, and other vital signs in real time.
+    </p>
+
+    <h2>Future of Wearable Technology</h2>
 
     <p>
-        Asthma cannot be completely cured but it can be controlled with inhalers and medication.
+        With advancements in AI and sensor technology, wearable devices will become more accurate, intelligent, and essential for preventive healthcare.
     </p>
 
 </div>

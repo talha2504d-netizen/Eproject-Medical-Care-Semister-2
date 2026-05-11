@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Asthma: Causes, Symptoms and Treatment</title>
+    <title>Gene Therapy: Advanced Treatment in Modern Medicine</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 
         h2 {
             color: #2c3e50;
-            border-left: 5px solid #e74c3c;
+            border-left: 5px solid #20c997;
             padding-left: 15px;
             margin-top: 40px;
         }
@@ -68,16 +68,16 @@
         }
 
         .cta-box {
-            background: #fdecea;
+            background: #e6fffa;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px dashed #e74c3c;
+            border: 1px dashed #20c997;
             margin: 20px 0;
         }
 
         .btn-book {
-            background: #e74c3c;
+            background: #20c997;
             color: white;
             padding: 10px 25px;
             text-decoration: none;
@@ -88,7 +88,7 @@
         }
 
         .btn-book:hover {
-            background: #c0392b;
+            background: #17a589;
         }
 
     </style>
@@ -101,58 +101,60 @@
 <div class="blog-container">
 
     <div class="breadcrumb">
-        Home > Health > Asthma
+        Home > Medical Science > Gene Therapy
     </div>
 
-    <h1>Asthma: Causes, Symptoms and Treatment</h1>
+    <h1>Gene Therapy: Advanced Treatment in Modern Medicine</h1>
 
-    <img src="../images/Asthma.png" alt="Asthma Image" class="main-image">
+    <img src="../images/genetherapy.png" alt="Gene Therapy Image" class="main-image">
 
     <p>
-        Asthma is a chronic respiratory disease that affects the airways in the lungs, making breathing difficult.
+        Gene therapy is an advanced medical technique that treats or prevents diseases by modifying or replacing faulty genes inside a patient’s cells.
     </p>
 
     <p>
-        During an asthma attack, the airways become inflamed and narrowed, causing wheezing, coughing, chest tightness, and shortness of breath.
+        It represents one of the most revolutionary approaches in modern medicine, targeting the root cause of genetic disorders instead of just treating symptoms.
     </p>
 
     <div class="cta-box">
-        <strong>Consult with the best Pulmonology Specialists</strong>
+        <strong>Learn About Advanced Genetic Treatments</strong>
         <br>
-
-        <a href="#" class="btn-book">Book Appointment</a>
+        <a href="#" class="btn-book">Explore More</a>
     </div>
 
-    <h2>Causes of Asthma</h2>
+    <h2>What is Gene Therapy?</h2>
 
     <p>
-        Asthma can be triggered by dust, pollen, smoke, air pollution, respiratory infections, and stress.
+        :contentReference[oaicite:0]{index=0} is a medical approach that involves inserting, altering, or removing genes within a patient’s cells to treat diseases.
     </p>
 
-    <h2>Common Symptoms</h2>
-
-    <h3>Shortness of Breath</h3>
+    <h2>How Gene Therapy Works</h2>
 
     <p>
-        Difficulty in breathing especially during physical activity or at night.
+        It works by delivering healthy genes into the body using carriers called vectors, often viruses that are modified to be safe.
     </p>
 
-    <h3>Wheezing</h3>
+    <h2>Applications of Gene Therapy</h2>
 
+    <h3>Genetic Disorders</h3>
     <p>
-        A whistling sound while breathing due to narrowed airways.
+        Used to treat inherited diseases like cystic fibrosis, hemophilia, and muscular dystrophy.
     </p>
 
-    <h3>Coughing</h3>
-
+    <h3>Cancer Treatment</h3>
     <p>
-        Persistent coughing, especially at night or early morning.
+        Helps the immune system target and destroy cancer cells more effectively.
     </p>
 
-    <h2>Treatment and Management</h2>
+    <h3>Rare Diseases</h3>
+    <p>
+        Provides treatment options for rare conditions that previously had no cure.
+    </p>
+
+    <h2>Future of Gene Therapy</h2>
 
     <p>
-        Asthma cannot be completely cured but it can be controlled with inhalers and medication.
+        With advancements in biotechnology and genetics, gene therapy is expected to become a key solution for curing many currently untreatable diseases.
     </p>
 
 </div>

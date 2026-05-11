@@ -100,6 +100,8 @@
 </head>
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
     <div class="breadcrumb">
         Home > Balance Diet> Nutrition
@@ -107,7 +109,7 @@
 
     <h1>Balanced Diet: Benefits and Healthy Eating Tips</h1>
 
-    <img src="Balance-Diet.jpg" alt="Balanced Diet" class="main-image">
+    <img src="../images/diet.jpg" alt="Balanced Diet" class="main-image">
 
     <p>Many people in Pakistan and around the world struggle to maintain a healthy diet due to fast food habits, busy routines, and lack of nutritional awareness. Poor eating habits can lead to fatigue, obesity, and various health issues.</p>
 
@@ -135,5 +137,7 @@
 
 </div>
 
+
+<?php include "../Footer.php"; ?>
 </body>
 </html>

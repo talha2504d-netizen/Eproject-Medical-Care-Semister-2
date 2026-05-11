@@ -78,6 +78,7 @@
 </head>
 <body>
 
+<?php include "../navbar.php"; ?>
 <div class="container">
 
     <div class="breadcrumb">
@@ -87,7 +88,7 @@
     <h1>Diabetes: Information, Causes and Management Tips</h1>
 
     <!-- Diabetes Image -->
-    <img src="Diabetes.jpg" alt="Diabetes Information" class="main-image">
+    <img src="../images\Diabetes.jpg" alt="Diabetes Information" class="main-image">
 
     <p>Diabetes is a chronic health condition that affects how your body turns food into energy. It occurs when blood sugar (glucose) levels become too high due to lack of insulin or insulin resistance.</p>
 
@@ -123,6 +124,8 @@
     <p>Maintaining a healthy diet, regular exercise, monitoring blood sugar, and taking prescribed medication can help control diabetes effectively.</p>
 
 </div>
+
+<?php include "../Footer.php"; ?>
 
 </body>
 </html>

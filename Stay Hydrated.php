@@ -100,6 +100,8 @@
 </head>
 <body>
 
+<?php include "../.php"; ?>
+
 <div class="container">
     <div class="breadcrumb">
         Home > Healthy Lifestyle > Hydration
@@ -107,7 +109,7 @@
 
     <h1>Stay Hydrated: Importance of Drinking Water Daily</h1>
 
-    <img src="hydration-benefits.png" alt="Stay Hydrated" class="main-image">
+    <img src="../images/Hydrated.jpg" alt="Stay Hydrated" class="main-image">
 
     <p>Many people in Pakistan and around the world do not drink enough water daily. Due to busy routines and preference for sugary drinks, dehydration has become a common issue.</p>
 
@@ -134,6 +136,8 @@
     <p>Water helps remove toxins from the body and keeps your skin fresh, clear, and healthy.</p>
 
 </div>
+
+<?php include "../Footer.php";?>
 
 </body>
 </html>
