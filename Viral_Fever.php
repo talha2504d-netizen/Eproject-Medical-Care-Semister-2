@@ -75,6 +75,8 @@
 </head>
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
 
     <div class="breadcrumb">
@@ -84,7 +86,7 @@
     <h1>Viral Fever: Symptoms, Causes and Treatment</h1>
 
     <!-- Image Added -->
-    <img src="Fever.jpg" alt="Viral Fever Symptoms" class="main-image">
+    <img src="../images/Fever.png" alt="Viral Fever Symptoms" class="main-image">
 
     <p>Viral fever is a common infection caused by different types of viruses. It spreads easily through air, contact, or infected surfaces, especially during seasonal changes.</p>
 
@@ -115,6 +117,8 @@
     <p>Rest, hydration, and prescribed medicines help in recovery. Antibiotics are not effective for viral infections.</p>
 
 </div>
+
+<?php include "../Footer.php"; ?>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Asthma: Causes, Symptoms and Treatment</title>
+    <title>Vaccines: Importance, Types and Benefits</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 
         h2 {
             color: #2c3e50;
-            border-left: 5px solid #e74c3c;
+            border-left: 5px solid #0d6efd;
             padding-left: 15px;
             margin-top: 40px;
         }
@@ -68,16 +68,16 @@
         }
 
         .cta-box {
-            background: #fdecea;
+            background: #eaf4ff;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px dashed #e74c3c;
+            border: 1px dashed #0d6efd;
             margin: 20px 0;
         }
 
         .btn-book {
-            background: #e74c3c;
+            background: #0d6efd;
             color: white;
             padding: 10px 25px;
             text-decoration: none;
@@ -88,7 +88,7 @@
         }
 
         .btn-book:hover {
-            background: #c0392b;
+            background: #0b5ed7;
         }
 
     </style>
@@ -101,58 +101,61 @@
 <div class="blog-container">
 
     <div class="breadcrumb">
-        Home > Health > Asthma
+        Home > Health > Vaccines
     </div>
 
-    <h1>Asthma: Causes, Symptoms and Treatment</h1>
+    <h1>Vaccines: Importance, Types and Benefits</h1>
 
-    <img src="../images/Asthma.png" alt="Asthma Image" class="main-image">
+    <img src="../images/Vaccines.png" alt="Vaccines Image" class="main-image">
 
     <p>
-        Asthma is a chronic respiratory disease that affects the airways in the lungs, making breathing difficult.
+        Vaccines are biological preparations that protect the human body from infectious diseases by building immunity against harmful viruses and bacteria.
     </p>
 
     <p>
-        During an asthma attack, the airways become inflamed and narrowed, causing wheezing, coughing, chest tightness, and shortness of breath.
+        They work by stimulating the immune system to recognize and fight specific pathogens without causing the actual disease.
     </p>
 
     <div class="cta-box">
-        <strong>Consult with the best Pulmonology Specialists</strong>
+        <strong>Stay Protected with Recommended Vaccinations</strong>
         <br>
 
         <a href="#" class="btn-book">Book Appointment</a>
     </div>
 
-    <h2>Causes of Asthma</h2>
+    <h2>Importance of Vaccines</h2>
 
     <p>
-        Asthma can be triggered by dust, pollen, smoke, air pollution, respiratory infections, and stress.
+        Vaccines play a vital role in preventing life-threatening diseases and reducing the spread of infections in communities worldwide.
     </p>
 
-    <h2>Common Symptoms</h2>
+    <h2>Types of Vaccines</h2>
 
-    <h3>Shortness of Breath</h3>
-
+    <h3>Inactivated Vaccines</h3>
     <p>
-        Difficulty in breathing especially during physical activity or at night.
+        These vaccines contain killed viruses or bacteria that help the immune system develop protection safely.
     </p>
 
-    <h3>Wheezing</h3>
-
+    <h3>Live Attenuated Vaccines</h3>
     <p>
-        A whistling sound while breathing due to narrowed airways.
+        These contain weakened forms of the virus that create strong and long-lasting immunity.
     </p>
 
-    <h3>Coughing</h3>
-
+    <h3>mRNA Vaccines</h3>
     <p>
-        Persistent coughing, especially at night or early morning.
+        Modern vaccines that use genetic instructions to teach cells how to fight infections effectively.
     </p>
 
-    <h2>Treatment and Management</h2>
+    <h2>Benefits of Vaccination</h2>
 
     <p>
-        Asthma cannot be completely cured but it can be controlled with inhalers and medication.
+        Vaccination helps prevent diseases, reduces hospitalizations, protects communities, and supports global health safety.
+    </p>
+
+    <h2>Understanding Immunization</h2>
+
+    <p>
+        Vaccines are a key part of :contentReference[oaicite:0]{index=0}, which is the process of making a person immune to infectious diseases through vaccination or natural exposure.
     </p>
 
 </div>

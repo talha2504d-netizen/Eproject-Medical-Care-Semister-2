@@ -98,6 +98,8 @@
 </head>
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
 
     <div class="breadcrumb">
@@ -107,7 +109,7 @@
     <h1>Cancer Awareness: Symptoms, Prevention and Early Detection</h1>
 
     <!-- Cancer Awareness Image -->
-    <img src="Cancer.jfif"
+    <img src="../images/Cancer.png"
         alt="Cancer Awareness"
          class="main-image">
 
@@ -169,6 +171,8 @@
     </p>
 
 </div>
+
+<?php include "../Footer.php" ?>
 
 </body>
 </html>

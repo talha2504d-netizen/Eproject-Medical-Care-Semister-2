@@ -99,6 +99,8 @@
 
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
 
     <div class="breadcrumb">
@@ -108,7 +110,7 @@
     <h1>COVID-19: Symptoms, Prevention and Safety Tips</h1>
 
     <!-- COVID-19 Image -->
-    <img src="Covid-19.jfif"
+    <img src="../Covid-19.jfif"
          alt="COVID-19 Awareness"
          class="main-image">
 
@@ -175,6 +177,8 @@
     </p>
 
 </div>
+
+<?php include "../Footer.php"; ?>
 
 </body>
 </html>

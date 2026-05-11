@@ -82,6 +82,8 @@
 </head>
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
 
     <div class="breadcrumb">
@@ -91,7 +93,7 @@
     <h1>Heart Disease: Causes, Symptoms and Prevention</h1>
 
     <!-- Main Image -->
-    <img src="Heart.jpg" alt="Heart Disease Illustration" class="main-image">
+    <img src="../images/Heart.png" alt="Heart Disease Illustration" class="main-image">
 
     <p><strong>:contentReference[oaicite:0]{index=0}</strong> is one of the leading causes of death worldwide, including Pakistan. It affects the heart’s ability to function properly and can lead to serious complications if not treated early.</p>
 
@@ -128,6 +130,8 @@
     <img src="healthy-heart-lifestyle.jpg" alt="Healthy Heart Lifestyle" class="main-image">
 
 </div>
+
+<?php include "../Footer.php"; ?>
 
 </body>
 </html>

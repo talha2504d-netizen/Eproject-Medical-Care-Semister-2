@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Asthma: Causes, Symptoms and Treatment</title>
+    <title>Robotic Surgery: Modern Technology in Healthcare</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 
         h2 {
             color: #2c3e50;
-            border-left: 5px solid #e74c3c;
+            border-left: 5px solid #0d6efd;
             padding-left: 15px;
             margin-top: 40px;
         }
@@ -68,16 +68,16 @@
         }
 
         .cta-box {
-            background: #fdecea;
+            background: #eaf4ff;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px dashed #e74c3c;
+            border: 1px dashed #0d6efd;
             margin: 20px 0;
         }
 
         .btn-book {
-            background: #e74c3c;
+            background: #0d6efd;
             color: white;
             padding: 10px 25px;
             text-decoration: none;
@@ -88,7 +88,7 @@
         }
 
         .btn-book:hover {
-            background: #c0392b;
+            background: #0b5ed7;
         }
 
     </style>
@@ -101,58 +101,58 @@
 <div class="blog-container">
 
     <div class="breadcrumb">
-        Home > Health > Asthma
+        Home > Medical Advancements > Robotic Surgery
     </div>
 
-    <h1>Asthma: Causes, Symptoms and Treatment</h1>
+    <h1>Robotic Surgery: Modern Technology Improving Surgeries</h1>
 
-    <img src="../images/Asthma.png" alt="Asthma Image" class="main-image">
+    <img src="../mages/RoboticSurgery.png" alt="Robotic Surgery Image" class="main-image">
 
     <p>
-        Asthma is a chronic respiratory disease that affects the airways in the lungs, making breathing difficult.
+        Robotic surgery is an advanced medical technology that helps doctors perform complex surgeries with greater precision, flexibility, and control.
     </p>
 
     <p>
-        During an asthma attack, the airways become inflamed and narrowed, causing wheezing, coughing, chest tightness, and shortness of breath.
+        Modern robotic systems allow surgeons to operate using small instruments and robotic arms controlled through a computer system, reducing pain and recovery time for patients.
     </p>
 
     <div class="cta-box">
-        <strong>Consult with the best Pulmonology Specialists</strong>
+        <strong>Consult with Expert Robotic Surgery Specialists</strong>
         <br>
 
         <a href="#" class="btn-book">Book Appointment</a>
     </div>
 
-    <h2>Causes of Asthma</h2>
+    <h2>Benefits of Robotic Surgery</h2>
 
     <p>
-        Asthma can be triggered by dust, pollen, smoke, air pollution, respiratory infections, and stress.
+        Robotic-assisted surgeries provide high accuracy, smaller incisions, reduced blood loss, less pain, and faster recovery compared to traditional surgery methods.
     </p>
 
-    <h2>Common Symptoms</h2>
+    <h2>Common Uses of Robotic Surgery</h2>
 
-    <h3>Shortness of Breath</h3>
+    <h3>Heart Surgery</h3>
 
     <p>
-        Difficulty in breathing especially during physical activity or at night.
+        Robotic systems help surgeons perform delicate heart procedures with improved precision.
     </p>
 
-    <h3>Wheezing</h3>
+    <h3>Cancer Treatment</h3>
 
     <p>
-        A whistling sound while breathing due to narrowed airways.
+        Robotic surgery is commonly used in removing tumors and treating cancers with minimal damage to nearby tissues.
     </p>
 
-    <h3>Coughing</h3>
+    <h3>Orthopedic Procedures</h3>
 
     <p>
-        Persistent coughing, especially at night or early morning.
+        Advanced robotic tools assist doctors in joint replacement and bone-related surgeries.
     </p>
 
-    <h2>Treatment and Management</h2>
+    <h2>Future of Robotic Surgery</h2>
 
     <p>
-        Asthma cannot be completely cured but it can be controlled with inhalers and medication.
+        With continuous advancements in artificial intelligence and medical robotics, robotic surgery is becoming safer, faster, and more accessible around the world.
     </p>
 
 </div>

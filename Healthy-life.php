@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Exercise: Benefits and How to Stay Active</title>
+    <title>Apple Cinnamon Detox Water: Benefits and How to Make It</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,39 +104,41 @@
 
 <div class="container">
     <div class="breadcrumb">
-        Home > Healthy Lifestyle > Exercise
+        Home > Healthy Lifestyle > 
     </div>
 
-    <h1>Daily Exercise: Benefits and How to Stay Active</h1>
+    
 
-    <img src="../images/Exercise.png" alt="Daily Exercise" class="main-image">
+    <!-- <div class="meta-info">
+        <div class="doctors.jpg"></div> <div class="meta-text">
+            By <a href="#"><?php echo $author; ?></a><br>
+            Reviewed By <a href="#"><?php echo $reviewer; ?></a><br>
+            <small>Published On <?php echo $publishDate; ?> • <?php echo $readTime; ?></small>
+        </div>
+    </div> -->
 
-    <p>Many people in Pakistan and around the world struggle to stay physically active due to busy schedules, office work, and a sedentary lifestyle. Lack of movement can lead to fatigue, weight gain, and health issues.</p>
+    <img src="../images/Healthy.jpg" alt="Apple Cinnamon Water" class="main-image">
 
-    <p>Daily exercise is one of the most effective ways to maintain a healthy body and mind. It improves physical strength, boosts energy, and supports overall well-being.</p>
+    <p>Many people in Pakistan struggle to maintain a healthy lifestyle due to busy routines and unhealthy eating habits. Lack of physical activity and poor diet choices can negatively impact overall well-being.</p>
+        
+<p>Adopting a healthy lifestyle offers a balanced approach to living. It includes proper nutrition, regular exercise, and mental well-being practices that are backed by scientific research.</p>
 
-    <div class="cta-box">
-        <strong>Book Appointment with the best "General Physicians"</strong><br>
-        <a href="#" class="btn-book">Book Appointment</a>
-    </div>
-
-    <h2>Importance of Daily Exercise</h2>
-    <p>Regular exercise helps the body stay active and strong. It improves heart health, increases stamina, and supports better body metabolism.</p>
-    <p>Even simple activities like walking, jogging, or stretching can make a big difference in overall fitness.</p>
-
-    <h2>Key Benefits of Daily Exercise</h2>
-
-    <h3>Improved Physical Fitness</h3>
-    <p>Daily exercise strengthens muscles and bones, improves flexibility, and helps maintain a healthy weight.</p>
-
-    <h3>Better Mental Health</h3>
-    <p>Physical activity releases endorphins that reduce stress, anxiety, and depression, improving overall mood and mental clarity.</p>
-
-    <h3>Increased Energy Levels</h3>
-    <p>Regular movement improves blood circulation and oxygen flow, which increases energy and reduces tiredness throughout the day.</p>
-
+<div class="cta-box">
+    <strong>Book Appointment with the best "General Physicians"</strong><br>
+    <a href="#" class="btn-book">Book Appointment</a>
 </div>
 
+<h2>The Importance of Balanced Diet</h2>
+<p>A balanced diet provides essential nutrients that the body needs to function properly. It includes fruits, vegetables, proteins, and whole grains that support energy levels and overall health.</p>
+<p>Healthy eating habits also strengthen the immune system and reduce the risk of chronic diseases.</p>
+
+<h2>Key Healthy Lifestyle Benefits</h2>
+
+<h3>Improved Energy Levels</h3>
+<p>Regular physical activity and proper nutrition help improve energy levels. People who maintain a healthy routine often feel more active and productive throughout the day.</p>
+
+<h3>Better Mental Health</h3>
+<p>A healthy lifestyle positively affects mental health by reducing stress and anxiety. Activities like exercise, proper sleep, and mindfulness can improve mood and emotional stability.</p>
 
 <?php include "../Footer.php"; ?>
 </body>

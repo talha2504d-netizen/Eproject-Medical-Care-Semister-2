@@ -90,6 +90,8 @@
 
 <body>
 
+<?php include "../navbar.php"; ?>
+
 <div class="container">
 
     <div class="breadcrumb">
@@ -98,7 +100,7 @@
 
     <h1>Better Sleep: Importance and Tips for Healthy Sleep</h1>
 
-    <img src="Sleep.jpg" alt="Better Sleep" class="main-image">
+    <img src="../images/Sleep.jpg" alt="Better Sleep" class="main-image">
 
     <p>Good sleep is one of the most important parts of a healthy lifestyle. Many people struggle with poor sleep due to stress, busy schedules, excessive screen time, and unhealthy habits.</p>
 
@@ -147,6 +149,8 @@
     <p>Deep breathing, meditation, and light stretching before bed can help the mind and body relax.</p>
 
 </div>
+
+<?php include "../Footer.php"; ?>
 
 </body>
 </html>
