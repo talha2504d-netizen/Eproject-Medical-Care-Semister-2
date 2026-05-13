@@ -1,3 +1,17 @@
+<?php
+    include "db.php";
+    $specialization = $_GET['specialization'];
+
+    $sql = "SELECT * FROM doctors WHERE speciality = {'$specialization'};";
+    $result = mysqli_query( $conn, $sql );
+    $doctors = [];
+
+    while($row = mysqli_fetch_assoc($result)) {
+        $doctors[] = $row;
+    }
+    var_dump($doctors);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
