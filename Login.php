@@ -3,48 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h2>Log in to an existing Account</h2>
-    <form action="login.php" METHOD="post">
-        Username : <input type="text" name="username" id="username">
-        <br>
-        Password: <input type="password" name="password" id="password">
-        <br>
-        <input type="submit" value="Login" name="login">
-        <a href="signup.php">Or Sign Up for the first time.</a>
-    </form>
+<body class="bg-light">
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow p-4" style="width: 350px;">
+        <h4 class="text-center mb-4">Login</h4>
+
+        <form action="" method="post">
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" name="username" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" required>
+            </div>
+
+            <div class="d-grid mb-3">
+                <button type="submit" name="login" class="btn btn-primary">Login</button>
+            </div>
+
+            <div class="text-center">
+                <a href="signup.php">Create an account</a>
+            </div>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
 
 <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (isset($_POST["login"])) {
-            $username = $_POST["username"];
-            $password = $_POST["password"];
-        }
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["login"])) {
 
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
-        // coonect to database
-        $conn = mysqli_connect('localhost', 'root', '', 'users');
+    // Connect to database
+    $conn = mysqli_connect('localhost', 'root', '', 'users');
 
-        // make get query
-        $sql = "SELECT * FROM users WHERE user_name = '$username' and password = '$password';";
-
-        // run the query
-        $conn = mysqli_query($conn, $sql);
-
-        // get result as a n array
-        $result = mysqli_fetch_assoc($conn);
-        echo $result["username"];
-        echo $result["password"];
-        // if (mysqli_num_rows($result) > 0) {
-
-
-        // if (mysqli_connect_errno()) {
-        //     echo ''. mysqli_connect_error();
-        //     exit();
-
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
     }
+
+    // Query
+    $sql = "SELECT * FROM users WHERE user_name='$username' AND password='$password'";
+    $result = mysqli_query($conn, $sql);
+
+    if ($result && mysqli_num_rows($result) > 0) {
+        $row = mysqli_fetch_assoc($result);
+        echo "<div class='alert alert-success text-center'>Welcome, " . $row['user_name'] . "</div>";
+    } else {
+        echo "<div class='alert alert-danger text-center'>Invalid credentials</div>";
+    }
+
+    mysqli_close($conn);
+}
 ?>
