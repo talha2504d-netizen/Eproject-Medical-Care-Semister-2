@@ -97,13 +97,6 @@ h3 {
         /* End */
   
 
-    /* customers     */
-      
-  
-  
-
-         /* End */
-
 </style>
 
 
@@ -117,31 +110,31 @@ h3 {
 <h2>Services</h2>
 <div class="card-section">
   <div class="card">
-    <img src="image/Consult.png" alt="Consult Online">
+    <img src="images/Consult.png" alt="Consult Online">
     <h3>Consult Online Now</h3>
     <p>Instantly connect with our healthcare professionals through our secure platform.</p>
   </div>
 
   <div class="card">
-    <img src="image/clinic.png" alt="Clinic Appointment">
+    <img src="images/clinic.png" alt="Clinic Appointment">
     <h3>Clinic Appointment</h3>
     <p>Book an in-person visit to our clinic at your convenience.</p>
   </div>
 
   <div class="card">
-    <img src="image/Laboratory.png" alt="Laboratory Tests">
+    <img src="images/Laboratory.png" alt="Laboratory Tests">
     <h3>Laboratory Tests</h3>
     <p>Get your diagnostic tests done with our reliable laboratory services.</p>
   </div>
 
   <div class="card">
-    <img src="image/Procedures.png" alt="Procedures & Surgeries">
+    <img src="images/Procedures.png" alt="Procedures & Surgeries">
     <h3>Procedures & Surgeries</h3>
     <p>Explore our range of medical procedures and surgical options.</p>
   </div>
 
   <div class="card">
-    <img src="image/Medicines.png" alt="Medicines">
+    <img src="images/Medicines.png" alt="Medicines">
     <h3>Medicines</h3>
     <p>Find the medications you need with our wide selection.</p>
   </div>
@@ -277,15 +270,6 @@ h3 {
     </div>
   </div>
      <!-- End -->
-
-              <!-- customers reviews -->
-            <h3>Our Customers love us</h3>
-   <p>Check out the reviews from our satisfied customers</p>
-
-
-  
-     
-        <!-- End -->
 
 <?php include 'Footer.php'; ?>
 
