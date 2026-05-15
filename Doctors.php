@@ -1,80 +1,100 @@
 <?php
-    include "db.php";
-    $specialization = $_GET['specialization'];
 
-    $sql = "SELECT * FROM doctors WHERE speciality = {'$specialization'};";
-    $result = mysqli_query( $conn, $sql );
-    $doctors = [];
+$conn = mysqli_connect("localhost", "root", "", "care");
 
-    while($row = mysqli_fetch_assoc($result)) {
-        $doctors[] = $row;
-    }
-    var_dump($doctors);
+if (!$conn) {
+    die("Connection Failed: " . mysqli_connect_error());
+}
+
+// search value
+$search = isset($_GET['search']) ? $_GET['search'] : "";
+
+// query
+$sql = "SELECT * FROM doctors 
+        WHERE name LIKE '%$search%' 
+        OR specialization LIKE '%$search%'";
+
+$result = mysqli_query($conn, $sql);
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Find Doctors</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    
-<?php
-        include("navbar.php");
-    $conn = mysqli_connect("localhost","root","","care_project");
 
-    $query 
-        
-    ?>
+<?php include("navbar.php"); ?>
 
-    <h1 class="text-center" style="margin: 100px 0px;" >Find Doctors</h1>
+<div class="container mt-5">
 
-    <div class="container">
-        
-        <?php foreach ( $doctors as $doctor ) : ?>
+    <h1 class="text-center mb-4">Find Doctors</h1>
 
-            <div class="card mb-3 d-flex flex-row align-items-center mx-auto border-bottom border-dark border-start-0 border-end-0 border-top-0 rounded-0" style="max-width: 1050px; margin: 150px 0px;" >
+    <?php if ($search != ""): ?>
+        <p class="text-center text-muted">
+            Search Result for: <b><?php echo $search; ?></b>
+        </p>
+    <?php endif; ?>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwRCFnLvNz4hiLj7Nwt64EPJGc7k4la-HSBQ&s" class="rounded-circle align-self-start" style="width: 150px; height: 150px; object-fit: cover; " alt="...">
-            
+    <?php if (mysqli_num_rows($result) > 0) : ?>
 
-            <div class="card-body ">
+        <?php while ($doctor = mysqli_fetch_assoc($result)) : ?>
 
+            <div class="card mb-3 d-flex flex-row align-items-center mx-auto border-0 shadow-sm"
+                 style="max-width: 1000px;">
 
-                <h5 class="card-title">Dr. <?= $doctor ["name"]?></h5>
-                <p class="card-text"><?= $doctor ["speciality"]?></p>
-                <p class="card-info">MBBS, FCPS (Dermatology), D-DERM </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwRCFnLvNz4hiLj7Nwt64EPJGc7k4la-HSBQ&s"
+                     class="rounded-circle"
+                     style="width:140px;height:140px;object-fit:cover;">
 
-               
-                <div class="d-flex flex-row gap-3"> 
-                    <div>
-                        <h6><?= $doctor ["experience"]?></h6>
-                        <p>Experience</p>
+                <div class="card-body">
+
+                    <h5><?php echo $doctor["name"]; ?></h5>
+
+                    <p><?php echo $doctor["specialization"]; ?></p>
+
+                    <p class="text-muted"><?php echo $doctor["degree"]; ?></p>
+
+                    <div class="d-flex gap-4">
+
+                        <div>
+                            <h6><?php echo $doctor["experience"]; ?> yrs</h6>
+                            <small>Experience</small>
+                        </div>
+
+                        <div>
+                            <h6>⭐ 4.5</h6>
+                            <small>Rating</small>
+                        </div>
+
                     </div>
-                
-                    <div>  
-                        <h6><?= $doctor ["stars"]?></h6>
-                        <p><?= $doctor ["views"]?></p>
-                    </div>
+
                 </div>
+
+                <div class="p-3">
+
+                    <a href="#" class="btn btn-primary mb-2">Video Call</a>
+                    <br>
+                    <a href="#" class="btn btn-warning fw-bold">Book Appointment</a>
+
+                </div>
+
             </div>
 
-            <div> 
-                <a href="#" class="btn btn-primary ">Video Consultation</a>
-                <br><br>
-                <a href="#" class="btn btn-warning fw-bold fs-6">Book Appointment</a>
-            </div>
-        </div>
-                <?php endforeach; ?>
-    </div>
+        <?php endwhile; ?>
 
-    
+    <?php else : ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <h4 class="text-center text-danger">No Doctor Found</h4>
+
+    <?php endif; ?>
+
+</div>
+
 </body>
 </html>
