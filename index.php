@@ -56,40 +56,92 @@ h2, h3 {
 h3 {
   font-size: 18px;
 }
+
+
+
+
+
+       /* news */
+    body{
+      background:#f5f5f5;
+    }
+
+    .news-card{
+      border:none;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .news-card:hover{
+      transform:translateY(-8px);
+    }
+
+    .news-card img{
+      width: 140px;
+      height: 130px;
+      border-radius:40px;
+      
+    }
+
+    .news-date{
+      font-size:14px;
+      color:gray;
+    }
+
+    .btn-news{
+      border-radius:25px;
+      padding:8px 20px;
+    }
+        /* End */
+  
+
+    /* customers     */
+      
+  
+  
+
+         /* End */
+
 </style>
+
+
 </head>
+
 <body>
+
 <?php include("navbar.php"); ?>
 
 <!-- Services Section -->
 <h2>Services</h2>
 <div class="card-section">
   <div class="card">
-    <img src="Consult.png" alt="Consult Online">
+    <img src="image/Consult.png" alt="Consult Online">
     <h3>Consult Online Now</h3>
     <p>Instantly connect with our healthcare professionals through our secure platform.</p>
   </div>
 
   <div class="card">
-    <img src="clinic.png" alt="Clinic Appointment">
+    <img src="image/clinic.png" alt="Clinic Appointment">
     <h3>Clinic Appointment</h3>
     <p>Book an in-person visit to our clinic at your convenience.</p>
   </div>
 
   <div class="card">
-    <img src="Laboratory.png" alt="Laboratory Tests">
+    <img src="image/Laboratory.png" alt="Laboratory Tests">
     <h3>Laboratory Tests</h3>
     <p>Get your diagnostic tests done with our reliable laboratory services.</p>
   </div>
 
   <div class="card">
-    <img src="Procedures.png" alt="Procedures & Surgeries">
+    <img src="image/Procedures.png" alt="Procedures & Surgeries">
     <h3>Procedures & Surgeries</h3>
     <p>Explore our range of medical procedures and surgical options.</p>
   </div>
 
   <div class="card">
-    <img src="Medicines.png" alt="Medicines">
+    <img src="image/Medicines.png" alt="Medicines">
     <h3>Medicines</h3>
     <p>Find the medications you need with our wide selection.</p>
   </div>
@@ -152,6 +204,88 @@ h3 {
     <h3>Acne</h3>
   </div>
 </div>
+
+
+
+   <!-- news -->
+
+   <h3>As seen in news</h3>  
+
+    <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- News Card 1 -->
+      <div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNFB7oGxamk_aqUVkmPz4U2x7Ir2SaZw--yg&s" class="card-img-top" alt="News">
+          
+          <div class="card-body">
+            <p class="news-date">14 May 2026</p>
+
+            <p class="card-text">
+              Geo News Pakistan ka famous news channel hai.  
+              Yeh breaking news aur live updates provide karta hai.
+            </p>
+
+            <a href="#" class="btn btn-primary btn-news">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Card 2 -->
+      <div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1IkviJZr952RziGUSRGjde0GlIDs45Zh0Lg&s" class="card-img-top" alt="News">
+
+          <div class="card-body">
+            <p class="news-date">14 May 2026</p>
+
+            <p class="card-text">
+              ARY News latest national aur international khabrein dikhata hai.  
+              Yeh Pakistan ke popular news channels me se ek hai.
+            </p>
+
+            <a href="#" class="btn btn-success btn-news">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Card 3 -->
+      <div class="col-md-4">
+        <div class="card news-card">
+          <img src="https://mir-s3-cdn-cf.behance.net/projects/404/12326681.5482a6afd32d7.png" class="card-img-top" alt="News">
+
+          <div class="card-body">
+            <p class="news-date">14 May 2026</p>
+
+            <p class="card-text">
+              Pakistan me technology sector tezi se grow kar raha hai.  
+              Naye startups aur AI tools market me introduce ho rahe hain.
+            </p>
+
+            <a href="#" class="btn btn-danger btn-news">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+     <!-- End -->
+
+              <!-- customers reviews -->
+            <h3>Our Customers love us</h3>
+   <p>Check out the reviews from our satisfied customers</p>
+
+
+  
+     
+        <!-- End -->
 
 <?php include 'Footer.php'; ?>
 
