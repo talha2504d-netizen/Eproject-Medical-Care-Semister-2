@@ -1,0 +1,73 @@
+  body {
+            background: linear-gradient(135deg, #e0f7fa, #f8f9fa);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h2 {
+            font-weight: 600;
+            color: #0d6efd;
+        }
+
+        /* CARD STYLE */
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s ease;
+            max-width: 260px;
+            margin: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        /* CARD IMAGE */
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .card h5 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* BUTTON */
+        .btn-custom {
+            background-color: #0d6efd !important;
+            color: #fff !important;
+            border: none !important;
+            border-radius: 25px;
+            padding: 6px 15px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #0b5ed7 !important;
+        }
+
+        /* CAROUSEL */
+        .carousel-item img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .container {
+            max-width: 1200px;
+        }

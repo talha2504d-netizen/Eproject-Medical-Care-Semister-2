@@ -12,82 +12,7 @@ include("navbar.php");
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background: linear-gradient(135deg, #e0f7fa, #f8f9fa);
-            font-family: 'Poppins', sans-serif;
-        }
-
-        h2 {
-            font-weight: 600;
-            color: #0d6efd;
-        }
-
-        /* CARD STYLE */
-        .card {
-            border: none;
-            border-radius: 15px;
-            overflow: hidden;
-            transition: 0.3s ease;
-            max-width: 260px;
-            margin: auto;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-        }
-
-        /* CARD IMAGE */
-        .card img {
-            width: 100%;
-            height: 170px;
-            object-fit: cover;
-        }
-
-        .card-body {
-            text-align: center;
-            padding: 15px;
-        }
-
-        .card h5 {
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .card p {
-            font-size: 14px;
-            color: #555;
-        }
-
-        /* BUTTON */
-        .btn-custom {
-            background-color: #0d6efd !important;
-            color: #fff !important;
-            border: none !important;
-            border-radius: 25px;
-            padding: 6px 15px;
-            font-size: 14px;
-            text-decoration: none;
-        }
-
-        .btn-custom:hover {
-            background-color: #0b5ed7 !important;
-        }
-
-        /* CAROUSEL */
-        .carousel-item img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
-
-        .container {
-            max-width: 1200px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/HealthBlog.css">
 </head>
 
 <body>
@@ -141,7 +66,7 @@ include("navbar.php");
                 <div class="card-body">
                     <h5>Healthy Lifestyle</h5>
                     <p>Tips to maintain a healthy</p>
-                    <a href="#" class="btn btn-custom">Read More</a>
+                    <a href="../Healthblog/Healthy-life.php" class="btn btn-custom">Read More</a>
                 </div>
             </div>
         </div>
@@ -218,7 +143,7 @@ include("navbar.php");
         <!-- CARD 1 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="..//images.png">
+                <img src="../images/Diabetes.jpg">
                 <div class="card-body">
                     <h5>Diabetes</h5>
                     <p>Learn symptoms and prevention of diabetes.</p>
@@ -230,7 +155,7 @@ include("navbar.php");
         <!-- CARD 2 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Heart.png">
+                <img src="../images/Heart.jpg">
                 <div class="card-body">
                     <h5>Heart Disease</h5>
                     <p>Understand causes of heart diseases.</p>
@@ -242,7 +167,7 @@ include("navbar.php");
         <!-- CARD 3 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Fever.png">
+                <img src="../images/Fever.jpg">
                 <div class="card-body">
                     <h5>Viral Fever</h5>
                     <p>Know about viral fever treatment.</p>
@@ -266,7 +191,7 @@ include("navbar.php");
         <!-- CARD 5 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Cancer.png">
+                <img src="../images/Cancer.jfif">
                 <div class="card-body">
                     <h5>Cancer Awareness</h5>
                     <p>Important information about cancer.</p>
@@ -278,7 +203,7 @@ include("navbar.php");
         <!-- CARD 6 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Covid-19.png">
+                <img src="../images/Covid-19.jfif">
                 <div class="card-body">
                     <h5>COVID-19</h5>
                     <p>Safety precautions and symptoms guide.</p>
@@ -300,7 +225,7 @@ include("navbar.php");
         <!-- CARD 1 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/RoboticSurgery.png">
+                <img src="../images/RoboticSurgery.jfif">
                 <div class="card-body">
                     <h5>Robotic Surgery</h5>
                     <p>Modern robotic systems improving surgeries.</p>
@@ -312,7 +237,7 @@ include("navbar.php");
         <!-- CARD 2 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Healthcare.png">
+                <img src="../images/Healthcare.jfif">
                 <div class="card-body">
                     <h5>AI in Healthcare</h5>
                     <p>Artificial intelligence helping doctors.</p>
@@ -324,7 +249,7 @@ include("navbar.php");
         <!-- CARD 3 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/Vaccines.png">
+                <img src="../images/Vaccines.jfif">
                 <div class="card-body">
                     <h5>New Vaccines</h5>
                     <p>Latest vaccine developments worldwide.</p>
@@ -336,7 +261,7 @@ include("navbar.php");
         <!-- CARD 4 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/telemedicine.png">
+                <img src="../images/telemedicine.jfif">
                 <div class="card-body">
                     <h5>Telemedicine</h5>
                     <p>Online medical consultation technology.</p>
@@ -348,7 +273,7 @@ include("navbar.php");
         <!-- CARD 5 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/genetherapy.png">
+                <img src="../images/genetherapy.jfif">
                 <div class="card-body">
                     <h5>Gene Therapy</h5>
                     <p>Advanced treatments using genetic science.</p>
@@ -360,7 +285,7 @@ include("navbar.php");
         <!-- CARD 6 -->
         <div class="col-lg-3 col-md-4 col-sm-6">
             <div class="card">
-                <img src="../images/wearable.png">
+                <img src="../images/wearable.jfif">
                 <div class="card-body">
                     <h5>Wearable Devices</h5>
                     <p>Smart health tracking technology.</p>
